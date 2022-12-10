@@ -2,18 +2,18 @@ import { NextPage } from "next";
 import Head from "next/head";
 import styled from "styled-components";
 
-const Layout = styled.main``;
+import Hero from "../components/Home/Hero";
 
-const StyledContainer = styled.div``;
+const Layout = styled.main``;
 
 const IndexPage: NextPage = () => {
   return (
     <>
       <Layout>
         <Head>
-          <title>Nestfuel</title>
+          <title>NestFuel</title>
         </Head>
-        <StyledContainer>Nestfuel</StyledContainer>
+        <Hero />
       </Layout>
     </>
   );
